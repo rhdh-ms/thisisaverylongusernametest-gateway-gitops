@@ -1,0 +1,15 @@
+app:
+  name: thisisaverylongusernametest-poi-gateway-app
+  namespace: thisisaverylongusernametest
+  cluster: .apps.igb2792k.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-ms/thisisaverylongusernametest-gateway
+  org: rhdh-ms
+  name: thisisaverylongusernametest-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: thisisaverylongusernametest/poi-gateway-app
+  tag: latest
